@@ -1,0 +1,29 @@
+.toast-message--wrapper {
+  @apply w-96 bg-slate-900 px-4 py-6 text-white shadow-2xl hover:shadow-none transform-gpu translate-y-0 hover:translate-y-1 rounded-xl relative transition-all duration-500 ease-in-out;
+
+  @apply grid grid-flow-row-dense grid-cols-4 grid-rows-3;
+}
+
+.toast-message--icon-wrapper {
+  @apply text-5xl col-span-1 row-span-2 flex flex-col items-center justify-between place-self-center;
+}
+
+.toast-message--content {
+  @apply col-span-2 row-span-2 flex flex-col items-start justify-center ml-4 cursor-default;
+}
+
+.toast-message--content h1 {
+  @apply text-base text-gray-200 font-semibold leading-none tracking-wider;
+}
+
+.toast-message--content p {
+  @apply text-sm text-gray-400 mt-2 leading-relaxed tracking-wider;
+}
+
+.toast-message--close-icon {
+  @apply col-span-1 row-span-2 absolute top-2 right-2 cursor-pointer text-lg;
+}
+
+.toast-message--footer {
+  @apply col-span-4 flex flex-row-reverse items-start justify-items-end leading-none p-2 md:p-4 w-full pb-0 md:pb-0;
+}

@@ -1,0 +1,23 @@
+.api-details--title {
+  @apply text-base font-semibold leading-7 text-gray-900;
+}
+
+.api-details--help-message {
+  @apply mt-1 max-w-2xl text-sm leading-6 text-slate-700;
+}
+
+.api-details--wrapper {
+  @apply mt-6 border-t border-b border-gray-100;
+}
+
+.api-details--row {
+  @apply px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0;
+}
+
+.api-details--detail-label {
+  @apply text-sm font-medium leading-6 text-gray-900;
+}
+
+.api-details--detail-value {
+  @apply mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0;
+}

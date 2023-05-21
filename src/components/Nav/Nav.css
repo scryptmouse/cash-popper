@@ -1,0 +1,15 @@
+.nav--item.active .nav--btn-other {
+  @apply underline;
+}
+
+.nav--btn-home {
+  @apply text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white;
+}
+
+.nav--btn-home.active {
+  @apply underline;
+}
+
+.nav--btn-other {
+  @apply px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75;
+}

@@ -1,0 +1,35 @@
+.cash-drawer-list--item {
+  @apply overflow-hidden rounded-lg shadow-lg;
+}
+
+.cash-drawer-list--default-badge {
+  @apply bg-slate-100 text-slate-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-slate-900 dark:text-slate-300;
+}
+
+.cash-drawer-list--item-detail-wrapper {
+  @apply mt-3 mx-4 border-t border-b border-slate-600;
+}
+
+.cash-drawer-list--item-details {
+  @apply divide-y divide-slate-600;
+}
+
+.cash-drawer-list--item-detail-row {
+  @apply px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0;
+}
+
+.cash-drawer-list--item-detail-label {
+  @apply text-sm font-medium leading-6 text-gray-900;
+}
+
+.cash-drawer-list--item-detail-value {
+  @apply mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0;
+}
+
+.cash-drawer-list--item-footer {
+  @apply flex items-center justify-between leading-none p-2 md:p-4;
+}
+
+.cash-drawer-list--item-action {
+  @apply border border-slate-900 rounded py-2 px-4 bg-slate-400 hover:border-slate-400 hover:bg-slate-600 hover:text-slate-100 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:border-slate-900 disabled:hover:bg-slate-400 disabled:hover:text-black;
+}
