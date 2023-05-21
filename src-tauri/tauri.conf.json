@@ -7,7 +7,7 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "cash-popper",
+    "productName": "Cash Popper",
     "version": "0.0.1"
   },
   "tauri": {
@@ -27,7 +27,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "vc.mouse.cash-popper",
       "targets": "all"
     },
     "security": {
@@ -38,7 +38,15 @@
       "iconAsTemplate": true
     },
     "updater": {
-      "active": false
+      "active": true,
+      "dialog": true,
+      "endpoints": [
+        "https://github.com/scryptmouse/cash-popper/releases/latest/download/latest-version.json"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEM2RjQyRUJFMjUxQjVFMTYKUldRV1hoc2x2aTcweG5YVXc0ME5WcU1wOUVTbWNHTmJRVEF1TDRQSlNqOWEyRUNhWCtZWW5JNE8K",
+      "windows": {
+        "installMode": "passive"
+      }
     },
     "windows": [
       {
